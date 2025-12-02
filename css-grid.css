@@ -92,4 +92,7 @@ Student CSS below the line
     grid-column: 3 / 5;
     grid-row: 5 / 6;
   }
+
+  font: 1em sans-serif;
+  
 }
