@@ -33,16 +33,15 @@ Student CSS below the line
 .flex {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: rem;
 }
 .flex p {
-  font-weight: 800; 
+  font-weight: 800;
 }
 @media screen and (min-width: 768px) {
   .flex {
     flex-direction: row;
     flex-wrap: wrap;
-    
   }
   .flex > * {
     flex-grow: 1;
@@ -62,8 +61,6 @@ Student CSS below the line
   .flex *:nth-child(7),
   .flex *:nth-child(8),
   .flex *:nth-child(9) {
-    flex-basis: 4; 
-
+    flex-basis: 4;
   }
-} 
-
+}
