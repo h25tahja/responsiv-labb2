@@ -33,7 +33,7 @@ Student CSS below the line
 .flex {
   display: flex;
   flex-direction: column;
-  gap: rem;
+  gap: 2rem;
 }
 .flex p {
   font-weight: 800;
@@ -47,19 +47,41 @@ Student CSS below the line
     flex-grow: 1;
   }
   .flex *:nth-child(1) {
+    flex-basis: 13.25%;
     order: 1;
   }
-  .flex *:nth-child(2) {
+  .flex *:nth-child(4) {
+    flex-basis: 63.5%;
     order: 2;
   }
   .flex *:nth-child(3) {
     order: 3;
+    flex-basis: 13.25%;
   }
-  .flex *:nth-child(2),
-  .flex *:nth-child(5),
-  .flex *:nth-child(6),
-  .flex *:nth-child(7),
-  .flex *:nth-child(8),
+  .flex *:nth-child(2) {
+    flex-basis: 60%;
+    order: 4;
+  }
+
+  .flex *:nth-child(5) {
+    flex-basis: 10%;
+    order: 5;
+  }
+
+  .flex *:nth-child(6) {
+    flex-basis: 20%;
+    order: 6;
+  }
+
+  .flex *:nth-child(7) {
+    flex-basis: 10%;
+    order: 7;
+  }
+
+  .flex *:nth-child(8) {
+    flex-basis: 20%;
+    order: 8;
+  }
   .flex *:nth-child(9) {
     flex-basis: 4;
   }
